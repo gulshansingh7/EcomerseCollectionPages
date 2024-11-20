@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Collection Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="mainContainer">
+      <header class="header">
+        <h1>Ecommerce Collection</h1>
+        <button id="fetch-btn" class="primary-btn">Load Products</button>
+      </header>
+
+      <main class="main-content">
+        <div class="toolbar">
+            <h2>All Collection</h2>
+          <select id="sort-select" class="hidden dropdown">
+            <option value="default">Sort by</option>
+            <option value="asc">Price: Low to High</option>
+            <option value="desc">Price: High to Low</option>
+          </select>
+        </div>
+        <div id="product-container" class="product-container"></div>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2024 Ecommerce Inc. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
